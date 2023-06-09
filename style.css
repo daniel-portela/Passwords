@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
   }
   
   body{
-    background-color: #000000;
+    background-color: #212837;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -26,8 +26,8 @@
   }
   
   .container-input span {
-    color: #FFF;
-    font-size: 22px;
+    color: #f9fbfa;
+    font-size: 18px;
   }
   
   .slider {
@@ -42,8 +42,8 @@
   }
   
   .button-cta{
-    height: 40px;
-    margin-top: 40px;
+    height: 50px;
+    margin-top: 20px;
     background-color: #0f5dd3;
     border:0;
     border-radius: 4px;
@@ -54,7 +54,7 @@
   }
   
   .container-password{
-    max-width: 480px;
+    max-width: 450px;
     margin: 14px 0;
     display: flex;
     flex-direction: column;
@@ -65,25 +65,24 @@
   .title{
     text-align: center;
     color: #FFF;
-    font-size: 28px;
-    margin-top: 24px;
-    margin-bottom: 8px;
+    font-size: 17px;
+    margin-top: 10 px;
+    margin-bottom: 12px;
   } 
   
   .password{
     height: 60px;
     background-color: rgba(0, 0, 0, 0.4);
-    border: 1px solid #0f5dd3;
-    
+    border: 1px solid #18da11;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: #4df50a;
     border-radius: 4px;
     transition: transform 0.5s;
   }
   .password:hover{
-    transform: scale(1.05);
+    transform: scale(1.07);
     border-color: #FFF;
   }
   
@@ -92,16 +91,16 @@
   }
   
   .tooltip{
-    color: #FFF;
+    color: #f8fbf9;
     position: relative;
     top: 20px;
     padding: 6px 8px;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 6px;
-    background: rgb(15, 15, 15);
+    background: #212837;
     opacity: 0;
     visibility: hidden;
-    transition: all .5s ease-in-out;
+    transition: all .6s ease-in-out;
     text-align: center;
   }
   
