@@ -5,8 +5,8 @@
     font-family: sans-serif;
   }
   
-  body{
-    background-color: #212837;
+  body {
+    background-color: #0c1a37;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -16,8 +16,8 @@
   }
   
   .logo{
-    max-width: 600px;
-    margin-bottom: 24px;
+    max-width: 500px;
+    margin-bottom: 40px;
   }
   
   .container-input{
@@ -52,6 +52,10 @@
     font-weight: bold;
     cursor: pointer;
   }
+  .button-cta:hover {
+    background-color: #381ace;
+    transition: 0.4s;
+  }
   
   .container-password{
     max-width: 450px;
@@ -64,7 +68,7 @@
   
   .title{
     text-align: center;
-    color: #FFF;
+    color: #07e11d;
     font-size: 17px;
     margin-top: 10 px;
     margin-bottom: 12px;
@@ -97,7 +101,7 @@
     padding: 6px 8px;
     font-size: 14px;
     border-radius: 6px;
-    background: #212837;
+    background: #0c1a37;
     opacity: 0;
     visibility: hidden;
     transition: all .6s ease-in-out;
